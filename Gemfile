@@ -33,7 +33,7 @@ group :test do
   gem "faker"
   gem "minitest-fail-fast"
   gem "minitest-rails"
-  gem "minitest-reporters", "1.1.17"
+  gem "minitest-reporters"#, "1.1.17"
   gem "mocha"
   gem "rails-controller-testing"
   gem "simplecov", :require => false

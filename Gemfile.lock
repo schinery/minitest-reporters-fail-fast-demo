@@ -140,7 +140,7 @@ GEM
     minitest-rails (3.0.0)
       minitest (~> 5.8)
       railties (~> 5.0)
-    minitest-reporters (1.1.17)
+    minitest-reporters (1.1.18)
       ansi
       builder
       minitest (>= 5.0)
@@ -254,7 +254,7 @@ DEPENDENCIES
   listen (~> 3.0.5)
   minitest-fail-fast
   minitest-rails
-  minitest-reporters (= 1.1.17)
+  minitest-reporters
   mocha
   oj
   pg (~> 0.18)
