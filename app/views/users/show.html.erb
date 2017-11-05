@@ -1,0 +1,13 @@
+<div class="block-spacer">
+  <dl class="show">
+    <dt class="text-secondary">Name:</dt>
+    <dd><%= @user.name %></dd>
+  </dl>
+  <dl class="show">
+    <dt class="text-secondary">Email:</dt>
+    <dd><%= @user.email %></dd>
+  </dl>
+
+  <%= link_to "Back to users", users_path %> |
+  <%= link_to "Edit", edit_user_path(@user) %>
+</div>

@@ -1,0 +1,10 @@
+*.log
+.byebug_history
+coverage
+tmp
+public/assets
+public/uploads
+public/tmp
+vendor
+.idea
+db/structure.sql
